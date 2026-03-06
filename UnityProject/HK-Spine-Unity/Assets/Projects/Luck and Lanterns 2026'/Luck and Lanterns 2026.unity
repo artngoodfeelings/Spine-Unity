@@ -2170,6 +2170,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1224027986}
   - component: {fileID: 1224027987}
+  - component: {fileID: 1224027988}
   m_Layer: 0
   m_Name: FG lights 2
   m_TagString: Untagged
@@ -2248,6 +2249,18 @@ MonoBehaviour:
   - {x: -0.051250458, y: 5.560071, z: 0}
   - {x: -2.6223679, y: 2.621151, z: 0}
   - {x: -2.53516, y: 1.3288288, z: 0}
+--- !u!210 &1224027988
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1224027985}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1001 &1355679556
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2731,7 +2744,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 16.749882
+  orthographic size: 34.767418
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2756,7 +2769,7 @@ Transform:
   m_GameObject: {fileID: 1631351984}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 29.86, y: -34.5, z: -10}
+  m_LocalPosition: {x: 29.93, y: -34.76, z: -10}
   m_LocalScale: {x: 0.2434, y: 0.3651, z: 0.2434}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3773,6 +3786,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VFX_Coffee_Steam
       objectReference: {fileID: 0}
+    - target: {fileID: 5151760950311407769, guid: 3b319b4192d1de24598a783946f1cc5e, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5454404121096118265, guid: 3b319b4192d1de24598a783946f1cc5e, type: 3}
       propertyPath: ShapeModule.m_Position.y
       value: -0.2
@@ -3791,7 +3808,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5454404121096118265, guid: 3b319b4192d1de24598a783946f1cc5e, type: 3}
       propertyPath: InitialModule.startColor.maxColor.a
-      value: 0.35686275
+      value: 0.2784314
       objectReference: {fileID: 0}
     - target: {fileID: 7817803681279507846, guid: 3b319b4192d1de24598a783946f1cc5e, type: 3}
       propertyPath: m_LocalPosition.x
