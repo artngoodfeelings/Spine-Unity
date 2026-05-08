@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+  m_Name: _promotion_2-14_animation_Atlas
+  m_EditorClassIdentifier: 
+  textureLoadingMode: 0
+  onDemandTextureLoader: {fileID: 0}
+  atlasFile: {fileID: 4900000, guid: c67215ecd1a365f409f103117008f52c, type: 3}
+  materials:
+  - {fileID: 2100000, guid: 4ae12aabfaf9b9d4e881df7a468a16cc, type: 2}
+  - {fileID: 2100000, guid: 19877328a80c80142b6e3bda9793f834, type: 2}
+  - {fileID: 2100000, guid: 0f90dae9e7dd71049aa05baa15d57966, type: 2}
+  - {fileID: 2100000, guid: 2b7ca9a46a56f9347a7b6a64036d26bf, type: 2}
+  - {fileID: 2100000, guid: 2315eec226da2fe418e161b284241ae9, type: 2}
