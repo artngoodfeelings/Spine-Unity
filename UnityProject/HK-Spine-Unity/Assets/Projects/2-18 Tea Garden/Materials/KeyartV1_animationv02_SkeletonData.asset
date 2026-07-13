@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: KeyartV1_animationv02_SkeletonData
   m_EditorClassIdentifier: 
   atlasAssets:
-  - {fileID: 11400000, guid: 129452e4f23224f4fad2be4a24fa380a, type: 2}
+  - {fileID: 11400000, guid: cc6c23ecb01d97648b16bc570d025416, type: 2}
   scale: 0.01
-  skeletonJSON: {fileID: 4900000, guid: 5e706c3c64c4d8446981673c49dee6fc, type: 3}
+  skeletonJSON: {fileID: 4900000, guid: 7b97c2ad745a8874597213fb52a2540e, type: 3}
   isUpgradingBlendModeMaterials: 0
   blendModeMaterials:
     requiresBlendModeMaterials: 1
@@ -23,7 +23,7 @@ MonoBehaviour:
     additiveMaterials: []
     multiplyMaterials:
     - pageName: KeyartV1_animationv02.png
-      material: {fileID: 2100000, guid: b74d5cc11875fc04f93ff4807f60b000, type: 2}
+      material: {fileID: 2100000, guid: a557bd6e980da794d9a0c031d7fb6357, type: 2}
     screenMaterials: []
   skeletonDataModifiers: []
   fromAnimation: []
